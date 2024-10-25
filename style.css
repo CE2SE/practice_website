@@ -1,1 +1,100 @@
-appp
+body{
+    background-color: rgb(133, 4, 255); color:#1a0404; font-family:Monospace; font-size:50px;
+    background-image:url(lag.png); margin-left: 50px;
+    line-height: 3;
+    font-weight: bold;
+    margin: 0 auto;
+    /*same as margin-left:auto; or 
+    margin-right*/
+    /*mas okay ang percentage sa width kapag nasa center yung div*/
+    
+  
+}
+
+
+
+p{font-size:35px; line-height: 1.5;}
+
+div.respo{
+    font-size:35px;
+    font-family:Monospace;
+    height:250px;
+    width:1500px;
+    line-height: 1.5;
+}
+
+span.skills{
+    font-size:35px;
+    font-family:Monospace;
+    line-height: 1.5;
+}
+
+div.subj{
+font-style:monospace;
+font-size:35px;
+width:2000px;
+
+margin:50px 0px 50px 100px;
+
+padding:5px 0px 5px 50px;
+
+border:10px;
+border-color:rgb(15, 4, 4);
+border-style:solid; 
+line-height: 1.5;
+}
+
+div.dif{
+
+    background-image:url(civil-engineer.jpg);
+    font-size:35px;
+    height:500px;
+    width:900px;
+    margin:100px 0px 0px 600px;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:top center;
+    border:3px;
+    border-color: rgb(0, 0, 0);
+    border-style: cover;
+}
+
+a:link{
+    color:yellow;  
+    text-decoration: none;  
+}
+a:visited{
+    color:black;    
+}
+a:hover{
+    color:red;    
+}
+a:active{
+    color: blue ;
+}
+a.focus{
+    color:green;
+}
+
+ul{
+    list-style-type:circle;
+    list-style-image: url(engineering.png);
+}
+
+ol{
+    list-style-type:upper-roman ;
+}
+
+/* Box Components
+Background, width, height etc....   
+Margin, Border, Padding */
+
+/*font weight, font style, line-height, margin, text align, text decoration for underline etc, text transform for uppercase lowercase*/
+/* !important, .div a,
+/*text align*/
+/*list style type, list style image*/
+/*float:left; or right clear:both,left,right;
+/*rrggbb 0->9 0->F
+/*background:rgba(1,2,3,.1);
+/*background:hsl (hue,saturation,lightness)(1,2,3,.1);
